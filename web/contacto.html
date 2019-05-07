@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
-<body>
+<center class="paginacontacto">
 	<!--MOBILE-->
 	<header class="col-1 mobile">
 		<div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
@@ -66,28 +66,55 @@
         </div>
     </div>
 	</header>
-	<!--FOOTER-->
-	<footer class="col-1 footerbottom">
-		<div class="col-1-2 footer-left">
-			<p><i class="fas fa-phone"></i>&nbsp; 912345678</p>
-			<br>
-			<p><i class="fas fa-mobile-alt"></i>&nbsp; 612345789</p>
-			<br>
-			<p><i class="fas fa-map-marker-alt"></i>&nbsp; C/ Pepita Pérez, 58.</p>
-			<br><br>
-		</div>
-		<div class="col-1-2 footer-right">
-			<p><i class="fab fa-instagram"></i>&nbsp; @Parkup</p>
-			<br>
-			<p><i class="fab fa-facebook-square"></i>&nbsp; Parkup</p>
-			<br>
-			<p><i class="fab fa-twitter-square"></i>&nbsp; @Parkup</p>
-			<br><br>
-		</div>
-		<div class="col-1">
-			&copy; Todos los derechos reservados 2019.
-		</div>
-	</footer>
-</body>
+        
+    <form action="respuesta.jsp" method="post" name="formulario">
+        <input type="hidden" name="contacto" value="Formulario de Contacto"><!-- Campo oculto para enviar datos al php -->    
+        <fieldset>
+            <ol>
+                <li>
+                    <label>Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" required>
+                </li>
+                <li>
+                    <label>E-mail</label>
+                    <br>
+                    <input type="email" name="email" required>
+                </li>
+                <li>
+                    <label>Mensaje</label>
+                    <br>
+                    <textarea name="mensaje" rows="10" cols="40"></textarea>
+                </li>
+                <li>
+                <input class="boton" type="submit" name="submit" value="Enviar"></li>
+            </ol>
+        </fieldset>
+    </form>
+        
+        
+    <!--FOOTER-->
+    <footer class="col-1 footerbottom">
+            <div class="col-1-2 footer-left">
+                    <p><i class="fas fa-phone"></i>&nbsp; 912345678</p>
+                    <br>
+                    <p><i class="fas fa-mobile-alt"></i>&nbsp; 612345789</p>
+                    <br>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp; C/ Pepita Pérez, 58.</p>
+                    <br><br>
+            </div>
+            <div class="col-1-2 footer-right">
+                    <p><i class="fab fa-instagram"></i>&nbsp; @Parkup</p>
+                    <br>
+                    <p><i class="fab fa-facebook-square"></i>&nbsp; Parkup</p>
+                    <br>
+                    <p><i class="fab fa-twitter-square"></i>&nbsp; @Parkup</p>
+                    <br><br>
+            </div>
+            <div class="col-1">
+                    &copy; Todos los derechos reservados 2019.
+            </div>
+    </footer>
+</center>
 
 </html>
