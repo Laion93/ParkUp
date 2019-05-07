@@ -99,6 +99,6 @@ public class Usuario {
     public String toString(){
         return("nombre: "+nombre+"\napellido: "+apellido+"\nDNI: "+DNI
                 +"\ntelefono: "+ telefono+"\nemail: "+email
-                +"\ncontrasenia: "+pass);
+                +"\ncontrasena: "+pass);
     }
 }
