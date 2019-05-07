@@ -28,7 +28,7 @@
 	<!--MOBILE-->
 	<header class="col-1 mobile">
 		<div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
-		<a href="index.html"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
+		<a href="Plazas"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
 		<div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
 	</header>
 	<nav class="col-1 mobile-nav mobile desplegable">
@@ -54,7 +54,7 @@
 			<div class="col-1-5"><i class="fas fa-user fa-1x mobile-desktop"></i></div>
 		</nav>	
         <div class="col-1">
-                    <div class="col-1 desplegable-desktop">
+            <div class="col-1 desplegable-desktop">
                 <div class="col-1-2">&nbsp;</div>
                 <div class="col-1-2"  id="fondomenu">
                     <ul>
@@ -64,13 +64,13 @@
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <br>
                     </ul>
-            </div>
+                </div>
             </div>
         </div>
     </header>
     <div class="col-1">   
         <div class="col-1-3- empleado">
-            <img src="img/empleado1.jpg" class="empleado">
+            <img src="images/empleado1.jpg" class="empleado">
             <h1>Alberto González</h1>
             <h2>Socio fundador y Creativo</h2>
             <br>
@@ -79,7 +79,7 @@
                 en cuenta la experiencia de usuario (UX) y la funcionalidad.</p>
         </div>
         <div class="col-1-3- empleado">
-            <img src="img/empleado2.jpg" class="empleado">
+            <img src="images/empleado2.jpg" class="empleado">
             <h1>María José Manzano</h1>
             <h2>Socia fundadora y Desarrolladora front-end</h2>
             <br>
@@ -88,7 +88,7 @@
                 en cuenta la experiencia de usuario (UX) y la funcionalidad.</p>
         </div>
         <div class="col-1-3- empleado">
-            <img src="img/empleado3.jpg" class="empleado">
+            <img src="images/empleado3.jpg" class="empleado">
             <h1>Alberto González</h1>
             <h2>Socio fundador y Contable</h2>
             <br>
@@ -100,7 +100,7 @@
     
     <div class="col-1">   
         <div class="col-1-3- empleado">
-            <img src="img/empleado4.jpg" class="empleado">
+            <img src="images/empleado4.jpg" class="empleado">
             <h1>Manuela Fernández</h1>
             <h2>Desarrolladora Java</h2>
             <br>
@@ -109,7 +109,7 @@
                 programando todo aquello que no se ve.</p>
         </div>
         <div class="col-1-3- empleado">
-            <img src="img/empleado5.jpg" class="empleado">
+            <img src="images/empleado5.jpg" class="empleado">
             <h1>Juan Pablo Verdaguer</h1>
             <h2>Desarrollador Java</h2>
             <br>
@@ -118,7 +118,7 @@
                 programando todo aquello que no se ve.</p>
         </div>
         <div class="col-1-3- empleado">
-            <img src="img/empleado6.jpg" class="empleado">
+            <img src="images/empleado6.jpg" class="empleado">
             <h1>Federico Hernández</h1>
             <h2>Jefe de cuentas</h2>
             <br>
