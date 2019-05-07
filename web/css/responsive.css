@@ -22,6 +22,15 @@
     .box h1{
         font-size: 15px;
     }
+    .paginanosotros img{
+        margin: 0 auto;
+        border-radius: 500px;
+        padding: 1em;
+        max-width: 150px;
+    }
+    .paginanosotros h1{
+        width: 100%;
+    }
     .footer-left{
         padding-right: 10%;
     }
