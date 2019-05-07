@@ -28,7 +28,7 @@ body {
     display: none;
     background-color: #090E3C;
     color: white;
-    width: 70%;
+    width: 70%; 
 }
 .mobile-nav li{
     margin: 20px 0px 40px 20px;
@@ -127,6 +127,33 @@ form button{
 }
 form input[type="submit"]{
     width: 13%;
+}
+/*PAGINA-NOSOTROS*/
+.paginanosotros h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1em;
+}
+.paginanosotros h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.paginanosotros p{
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+.paginanosotros img{
+    margin: 0 auto;
+    border-radius: 500px;
+    padding: 1em;
+    max-width: 250px;
 }
 
 /*FOOTER*/
