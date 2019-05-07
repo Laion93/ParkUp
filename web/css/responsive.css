@@ -1,0 +1,31 @@
+/* versión móviles */
+@media screen and (max-width:640px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        background-color: #090E3C;
+        color: white;
+    }
+    #desplegable {display: block; cursor: pointer;}
+    .desplegable-desktop{display: none;}
+    .mobile-nav{
+        display: block;
+    }
+    .mobile-nav span{
+        font-size: 90%;
+    }
+    .box{
+        font-size: 50%;
+    }
+    .box h1{
+        font-size: 15px;
+    }
+    .footer-left{
+        padding-right: 10%;
+    }
+    .footer-right{
+        padding-left: 10%;
+    }
+}
