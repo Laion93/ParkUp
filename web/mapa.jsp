@@ -71,7 +71,7 @@
                         Usuario usuarioRecogido = (Usuario)sesion.getAttribute("usuario");
                     %>
                     <li><%=usuarioRecogido.getNombre()%></li>
-                    <li><a href="vehiculo_nuevo.jsp">Mi cuenta</a></li>
+                    <li><a href="Perfil">Mi cuenta</a></li>
                     <li><a href="#">Alertas</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <br>
