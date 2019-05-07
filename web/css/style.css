@@ -25,10 +25,9 @@ body {
     cursor: pointer;
 }
 .mobile-nav{
-    display: none;
     background-color: #090E3C;
     color: white;
-    width: 70%; 
+    margin-top: 5em;
 }
 .mobile-nav li{
     margin: 20px 0px 40px 20px;
@@ -42,6 +41,11 @@ body {
 .desplegable{
     position: absolute;
     z-index: 999;
+    background-color: transparent;
+}
+.visible{
+        visibility: visible;
+    z-index: 499998;
 }
 /*MENU DESKTOP*/
 nav{
@@ -71,9 +75,9 @@ nav img{
     background-color: #3E447A;
 }
 .desplegable-desktop{
-    
     position: absolute;
     z-index: 999;
+    float: right;
 }
 #fondomenu{
     background-color:  #090E3C;
