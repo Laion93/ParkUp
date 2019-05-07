@@ -28,7 +28,7 @@
 	<!--MOBILE-->
 	<header class="col-1 mobile">
 		<div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
-		<a href="<%= request.getContextPath()+"/Plazas"%>"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a> <!--No funciona la redireccion al servlet-->
+		<a href="index.html"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
 		<div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
 	</header>
 	<nav class="col-1 mobile-nav mobile desplegable">
@@ -37,13 +37,13 @@
 			<li><a href="#">Mi cuenta</a></li>
 			<li><a href="#">Promociones</a></li>
 			<li><a href="#">Alertas</a></li>
-			<li><a href="nosotros.html"></a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
 			<li><a href="informacion.html">Información</a></li>
 			<li><a href="contacto.html">Contacto</a></li>
 			<br>
 		</ul>
 	</nav>
-
+    
 	<!--DESKTOP-->
 	<header>
 		<nav class="col-1 desktop">
@@ -53,18 +53,21 @@
 			<div class="col-1-5 menu"><a href="contacto.html">Contacto</a></div>
 			<div class="col-1-5"><i class="fas fa-user fa-1x mobile-desktop"></i></div>
 		</nav>	
-		<div class="col-1">
-		</div><div class="col-1-2">&nbsp;</div>
-		<div class="col-1-2 desplegable-desktop">
-			<ul>
-				<li> Nombre usuario</li>
-				<li><a href="#">Mi cuenta</a></li>
-				<li><a href="#">Alertas</a></li>
-				<li><a href="nosotros.html">Nosotros</a></li>
-				<br>
-			</ul>
-	</div>
-	</header>
+        <div class="col-1">
+                    <div class="col-1 desplegable-desktop">
+                <div class="col-1-2">&nbsp;</div>
+                <div class="col-1-2"  id="fondomenu">
+                    <ul>
+                        <li> Nombre usuario</li>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Alertas</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <br>
+                    </ul>
+            </div>
+            </div>
+        </div>
+    </header>
     <div class="col-1">   
         <div class="col-1-3- empleado">
             <img src="img/empleado1.jpg" class="empleado">
@@ -75,7 +78,7 @@
                 Su función es que entrar a nuestra app sea agradable teniendo
                 en cuenta la experiencia de usuario (UX) y la funcionalidad.</p>
         </div>
-        <div class="col-1-3- ">
+        <div class="col-1-3- empleado">
             <img src="img/empleado2.jpg" class="empleado">
             <h1>María José Manzano</h1>
             <h2>Socia fundadora y Desarrolladora front-end</h2>
@@ -105,7 +108,7 @@
                 Su función es que la aplicacion funcione conrrectamente
                 programando todo aquello que no se ve.</p>
         </div>
-        <div class="col-1-3- ">
+        <div class="col-1-3- empleado">
             <img src="img/empleado5.jpg" class="empleado">
             <h1>Juan Pablo Verdaguer</h1>
             <h2>Desarrollador Java</h2>
