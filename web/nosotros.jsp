@@ -36,8 +36,7 @@
 			<li><i class="fas fa-user fa-1x"></i><span>&nbsp;&nbsp; Nombre usuario</span></li>
 			<li><a href="#">Mi cuenta</a></li>
 			<li><a href="#">Promociones</a></li>
-			<li><a href="#">Alertas</a></li>
-			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="nosotros.jsp">Nosotros</a></li>
 			<li><a href="informacion.html">Información</a></li>
 			<li><a href="contacto.html">Contacto</a></li>
 			<br>
@@ -60,8 +59,7 @@
                     <ul>
                         <li> Nombre usuario</li>
                         <li><a href="#">Mi cuenta</a></li>
-                        <li><a href="#">Alertas</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="nosotros.jsp">Nosotros</a></li>
                         <br>
                     </ul>
                 </div>
