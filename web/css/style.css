@@ -43,10 +43,6 @@ body {
     z-index: 999;
     background-color: transparent;
 }
-.visible{
-        visibility: visible;
-    z-index: 499998;
-}
 /*MENU DESKTOP*/
 nav{
     width: 90%;
@@ -162,19 +158,34 @@ form input[type="submit"]{
     padding-right: 1em;
     padding-bottom: 2em;
 }
-/*.paginanosotros img{
-    margin: 0 auto;
-    border-radius: 500px;
-    padding: 1em;
-    max-width: 250px;
-}*/
 .empleado img{
     margin: 0 auto;
     border-radius: 500px;
     padding: 1em;
     max-width: 250px;
 }
-
+/*PAGINA-CONTACTO*/
+.paginacontacto textarea{
+    border-radius: 10px; 
+    border: #090E3C solid 2px;
+}
+.paginacontacto li{
+    margin-top: 1em;
+}
+/*PAGINA-RESPUESTA*/
+.paginarespuesta #mensaje{
+    padding-top: 10em;
+}
+.paginarespuesta h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.paginarespuesta h2{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
 
 /*FOOTER*/
 .footer{
