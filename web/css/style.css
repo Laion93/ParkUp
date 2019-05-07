@@ -39,6 +39,10 @@ body {
     border-radius: 350px;
     padding: 0.7em;
 }
+.desplegable{
+    position: absolute;
+    z-index: 999;
+}
 /*MENU DESKTOP*/
 nav{
     width: 90%;
@@ -128,6 +132,11 @@ form button{
 form input[type="submit"]{
     width: 13%;
 }
+/*PAGINA-PERFIL*/
+.paginaperfil a{
+    text-decoration: none;
+    color: #090E3C;
+}
 /*PAGINA-NOSOTROS*/
 .paginanosotros h1{
     text-align: center;
@@ -149,12 +158,19 @@ form input[type="submit"]{
     padding-right: 1em;
     padding-bottom: 2em;
 }
-.paginanosotros img{
+/*.paginanosotros img{
+    margin: 0 auto;
+    border-radius: 500px;
+    padding: 1em;
+    max-width: 250px;
+}*/
+.empleado img{
     margin: 0 auto;
     border-radius: 500px;
     padding: 1em;
     max-width: 250px;
 }
+
 
 /*FOOTER*/
 .footer{
