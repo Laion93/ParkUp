@@ -2,7 +2,7 @@
     $(document).ready(function(){
         $(".desplegable").hide();
         $(".mobile-menu").click(function(){
-            $(".desplegable").toggle("medium");
+            $(".desplegable").toggle();
         })
 
         $(".desplegable-desktop").hide();
