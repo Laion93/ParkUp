@@ -35,25 +35,22 @@ public class Perfil extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-             HttpSession session = request.getSession(false);
-		if(session != null){
-                    Usuario user = (Usuario)session.getAttribute("usuario");
+            HttpSession session = request.getSession(false);
+            if(session.getAttribute("usuario") == null){response.sendRedirect("login.jsp?error=nologueado");}
+            Usuario user = (Usuario)session.getAttribute("usuario");
 
+            if(gestionVehiculo.recuperarVehiculosDeUsuario(user)==null){response.sendRedirect("vehiculo_nuevo.jsp");}
+            ArrayList<Vehiculo> vehiculos = (ArrayList)gestionVehiculo.recuperarVehiculosDeUsuario(user);
 
-                    ArrayList<Vehiculo> vehiculos = (ArrayList)gestionVehiculo.recuperarVehiculosDeUsuario(user);
-                    
-                    if(vehiculos.isEmpty()){
-                        String error = "Primero registre un vehículo";
-                        response.sendRedirect("vehiculo_nuevo.jsp?error="+error);
-                    }else{
-                        session.setAttribute("vehiculos", vehiculos);
+            if(vehiculos.isEmpty()){
+                String error = "Primero registre un vehículo";
+                response.sendRedirect("vehiculo_nuevo.jsp?error="+error);
+            }else{
+                session.setAttribute("vehiculos", vehiculos);
 
-                        response.sendRedirect("perfil.jsp");
-                    }
-		}else{
-                    response.sendRedirect("login.jsp?error=nologueado");
-		}
-        
+                response.sendRedirect("perfil.jsp");
+            }
+		
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
