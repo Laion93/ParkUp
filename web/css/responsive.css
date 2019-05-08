@@ -22,13 +22,16 @@
     .box h1{
         font-size: 15px;
     }
-    .paginanosotros img{
+    .empleado img{
         margin: 0 auto;
         border-radius: 500px;
         padding: 1em;
         max-width: 150px;
     }
-    .paginanosotros h1{
+    .empleado h1{
+        padding-bottom: 4px;
+    }
+    .empleado{
         width: 100%;
     }
     .footer-left{

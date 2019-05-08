@@ -3,6 +3,9 @@ body {
     margin: 0 auto;
     max-width: 100%;
 }
+input{
+    cursor: pointer;
+}
 /*MENU MOVIL*/
 .mobile{
     display: none;
@@ -27,7 +30,7 @@ body {
 .mobile-nav{
     background-color: #090E3C;
     color: white;
-    margin-top: 5em;
+    margin-top: 4em;
 }
 .mobile-nav li{
     margin: 20px 0px 40px 20px;
@@ -96,6 +99,18 @@ nav img{
 .box h1{
     font-size: 20px;
     padding-top: 2em;
+}
+.box input{
+    cursor: pointer;
+}
+.box select{
+    border-radius: 100px;
+    border: #090E3C solid 2px;
+    padding: 8px;
+    cursor: pointer;
+}
+.box option{
+    cursor: pointer;
 }
 #codigo-promocional{
     border: #090E3C solid 2px;
@@ -186,7 +201,11 @@ form input[type="submit"]{
     text-align: center;
     font-weight: 500;
 }
-
+ /*PAGINA-INFORMACION*/
+ .paginainformacion btn-group{
+     margin-bottom: 1.5em;
+ }
+ 
 /*FOOTER*/
 .footer{
     background-color: #090E3C;
