@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="paginainformacion">
 	<!--MOBILE-->
 	<header class="col-1 mobile">
 		<div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
@@ -38,18 +38,6 @@
 		<div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
                 
                 <div class="col-1">
-            <!--<div class="col-1 desplegable mobile-nav">
-                <div class="col-1-2">&nbsp;</div>
-                <div class="col-1-2"  id="fondomenu">
-                    <ul>
-                        <li> Nombre usuario</li>
-                        <li><a href="#">Mi cuenta</a></li>
-                        <li><a href="#">Alertas</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <br>
-                    </ul>
-                </div>
-            </div>-->
         </div>
 	</header>
         <div class="col-1 desplegable mobile-nav">
@@ -120,11 +108,11 @@
 <div class="btn-group">
                 <a class="btn-inverse-line" target="_blank"  href="informacion.html">¿Cómo hago una reserva?</a><a class="btn-inverse" ><a href="login.html">Reservar</a>
             </div>
-</p></div>
-</p></div>
+</div>
+</div>
 </center>
 	<!--FOOTER-->
-	<footer class="col-1 footerbottom">
+	<footer class="col-1 footer">
 		<div class="col-1-2 footer-left">
 			<p><i class="fas fa-phone"></i>&nbsp; 912345678</p>
 			<br>

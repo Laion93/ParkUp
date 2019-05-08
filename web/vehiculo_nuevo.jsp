@@ -43,7 +43,7 @@ a la página especificada en el atributo "page" de jsp:forward-->
 <!--MOBILE-->
 <header class="col-1 mobile">
     <div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
-    <a href="index.html"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
+    <a href="Plazas"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
     <div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
 </header>
 <nav class="col-1 mobile-nav mobile desplegable">
@@ -51,7 +51,6 @@ a la página especificada en el atributo "page" de jsp:forward-->
         <li><i class="fas fa-user fa-1x"></i><span>&nbsp;&nbsp; Nombre usuario</span></li>
         <li><a href="#">Mi cuenta</a></li>
         <li><a href="#">Promociones</a></li>
-        <li><a href="#">Alertas</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="informacion.html">Información</a></li>
         <li><a href="contacto.html">Contacto</a></li>
@@ -75,7 +74,6 @@ a la página especificada en el atributo "page" de jsp:forward-->
             <ul>
                 <li> Nombre usuario</li>
                 <li><a href="#">Mi cuenta</a></li>
-                <li><a href="#">Alertas</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <br>
             </ul>
@@ -105,7 +103,7 @@ a la página especificada en el atributo "page" de jsp:forward-->
 </div>
 
 <!--FOOTER-->
-<footer class="col-1 footer">
+<footer class="col-1 footerbottom">
     <div class="col-1-2 footer-left">
         <p><i class="fas fa-phone"></i>&nbsp; 912345678</p>
         <br>

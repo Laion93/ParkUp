@@ -30,67 +30,71 @@
 		<div class="col-1-3 mobile-bell"><i class="fas fa-bell fa-2x"></i></div>
 		<a href="Plazas"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
 		<div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
+                
+                <div class="col-1">
+        </div>
 	</header>
-	<nav class="col-1 mobile-nav mobile desplegable">
-		<ul>
-			<li><i class="fas fa-user fa-1x"></i><span>&nbsp;&nbsp; Nombre usuario</span></li>
-			<li><a href="#">Mi cuenta</a></li>
-			<li><a href="#">Promociones</a></li>
-			<li><a href="nosotros.jsp">Nosotros</a></li>
-			<li><a href="informacion.html">Información</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-			<br>
-		</ul>
-	</nav>
+        <div class="col-1 desplegable mobile-nav">
+            <div class="col-1-2">&nbsp;</div>
+                <div class="col-1-2"  id="fondomenu">
+                    <ul>
+                        <li> Nombre usuario</li>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <br>
+                    </ul>
+                </div>
+        </div>
     
 	<!--DESKTOP-->
 	<header>
 		<nav class="col-1 desktop">
-			<div class="col-1-5"><a href="index.html"><img src="img/logo-provisional.png"></a></div>
+                    <div class="col-1-5 logo"><a href="Plazas"><img src="img/logo-provisional.png"></a></div>
 			<div class="col-1-5 menu"><a href="promociones.html">Promociones</a></div>
 			<div class="col-1-5 menu"><a href="informacion.html">Información</a></div>
 			<div class="col-1-5 menu"><a href="contacto.html">Contacto</a></div>
 			<div class="col-1-5"><i class="fas fa-user fa-1x mobile-desktop"></i></div>
 		</nav>	
         <div class="col-1">
-            <div class="col-1 desplegable-desktop">
+            <div class="col-1 desplegable-desktop visible">
                 <div class="col-1-2">&nbsp;</div>
                 <div class="col-1-2"  id="fondomenu">
                     <ul>
                         <li> Nombre usuario</li>
                         <li><a href="#">Mi cuenta</a></li>
-                        <li><a href="nosotros.jsp">Nosotros</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
                         <br>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
     <div class="col-1">   
         <div class="col-1-3- empleado">
             <img src="images/empleado1.jpg" class="empleado">
             <h1>Alberto González</h1>
             <h2>Socio fundador y Creativo</h2>
             <br>
-            <p>Alberto es el encargado de la parte visual de la página. 
-                Su función es que entrar a nuestra app sea agradable teniendo
-                en cuenta la experiencia de usuario (UX) y la funcionalidad.</p>
+            <p>Alberto es el encargado de la parte visual de la empresa.
+            Dentro de sus funciones está mantener la identidad de marca a través 
+            de la publicidad y redes sociales.</p>
         </div>
         <div class="col-1-3- empleado">
             <img src="images/empleado2.jpg" class="empleado">
             <h1>María José Manzano</h1>
             <h2>Socia fundadora y Desarrolladora front-end</h2>
             <br>
-            <p>Alberto es el encargado de la parte visual de la página. 
+            <p>María José es la encargada de la parte visual de la página. 
                 Su función es que entrar a nuestra app sea agradable teniendo
                 en cuenta la experiencia de usuario (UX) y la funcionalidad.</p>
         </div>
         <div class="col-1-3- empleado">
             <img src="images/empleado3.jpg" class="empleado">
-            <h1>Alberto González</h1>
-            <h2>Socio fundador y Contable</h2>
+            <h1>Manuela Montero</h1>
+            <h2>Socia fundadora y Contable</h2>
             <br>
-            <p>Alberto es fundador y cabeza pensante de ParkUp. 
+            <p>Manuela es fundadora y contable de ParkUp. 
                 Su función es que las cuentas cuadren y se pueda 
                 expandir nuestro proyecto.</p>
         </div>
@@ -99,10 +103,10 @@
     <div class="col-1">   
         <div class="col-1-3- empleado">
             <img src="images/empleado4.jpg" class="empleado">
-            <h1>Manuela Fernández</h1>
+            <h1>Patricia Fernández</h1>
             <h2>Desarrolladora Java</h2>
             <br>
-            <p>Manuela es la encargada de la parte back-end de la web.
+            <p>Patricia es la encargada de la parte back-end de la web.
                 Su función es que la aplicacion funcione conrrectamente
                 programando todo aquello que no se ve.</p>
         </div>
@@ -111,16 +115,16 @@
             <h1>Juan Pablo Verdaguer</h1>
             <h2>Desarrollador Java</h2>
             <br>
-            <p>Pablo es el encargado de la parte back-end de la web.
+            <p>Juan Pablo forma parte del equipo de desarrollo de software.
                 Su función es que la aplicacion funcione conrrectamente
-                programando todo aquello que no se ve.</p>
+                implementando toda la lógica necesaria.</p>
         </div>
         <div class="col-1-3- empleado">
             <img src="images/empleado6.jpg" class="empleado">
             <h1>Federico Hernández</h1>
             <h2>Jefe de cuentas</h2>
             <br>
-            <p>Alberto es el encargado de la Contabilidad.
+            <p>Federico es el encargado de la Contabilidad.
                 Su función es que las cuentas cuadren y se pueda 
                 expandir nuestro proyecto</p>
         </div>
