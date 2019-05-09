@@ -26,7 +26,7 @@ a la página especificada en el atributo "page" de jsp:forward-->
 <div class="col-1 box">
     <h1>Registre su vehículo</h1><br>
     <form>
-        <select name="tipovehiculo" required>
+        <select name="tipoVehiculo" required>
             <option value="" selected disabled hidden>Tipo de vehículo</option>
             <option value="coche">Coche</option>
             <option value="moto">Motocicleta</option>

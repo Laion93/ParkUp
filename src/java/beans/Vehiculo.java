@@ -11,10 +11,11 @@ package beans;
  */
 public class Vehiculo {
     
-    String tipovehiculo;
+    String tipoVehiculo;
     boolean electrico;
     String matricula;
     private Usuario usuario;
+    int plazaOcupada;
     
     
     public Vehiculo(){
@@ -23,17 +24,17 @@ public class Vehiculo {
     
     public Vehiculo(String tipovehiculo, boolean electrico, String matricula){
         
-        this.tipovehiculo=tipovehiculo;
+        this.tipoVehiculo=tipovehiculo;
         this.electrico=electrico;
         this.matricula=matricula;
     }
 
-    public String getTipovehiculo() {
-        return tipovehiculo;
+    public String getTipoVehiculo() {
+        return tipoVehiculo;
     }
 
-    public void setTipovehiculo(String tipovehiculo) {
-        this.tipovehiculo = tipovehiculo;
+    public void setTipoVehiculo(String tipovehiculo) {
+        this.tipoVehiculo = tipovehiculo;
     }
 
     public boolean isElectrico() {
@@ -59,9 +60,17 @@ public class Vehiculo {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
+
+    public int getPlazaOcupada() {
+        return plazaOcupada;
+    }
+
+    public void setPlazaOcupada(int plazaOcupada) {
+        this.plazaOcupada = plazaOcupada;
+    }
     
     @Override
     public String toString(){
-        return("tipo: "+tipovehiculo+"\nelectico? : "+electrico+"\nmatricula: "+matricula);
+        return("tipo: "+tipoVehiculo+"\nelectico? : "+electrico+"\nmatricula: "+matricula);
     }
 }

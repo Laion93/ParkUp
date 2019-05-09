@@ -38,7 +38,7 @@ public class PruebasDao {
         Vehiculo v1 = new Vehiculo();
         
         v1.setMatricula("3777CFD");
-        v1.setTipovehiculo("coche");
+        v1.setTipoVehiculo("coche");
         v1.setElectrico(false);
         v1.setUsuario(u1);
     
@@ -46,7 +46,7 @@ public class PruebasDao {
         Vehiculo v2 = new Vehiculo();
         
         v2.setMatricula("3454TJK");
-        v2.setTipovehiculo("furgoneta");
+        v2.setTipoVehiculo("furgoneta");
         v2.setElectrico(false);
         v2.setUsuario(u1);
 
@@ -57,7 +57,7 @@ public class PruebasDao {
         /*
         Vehiculo v3 = miVehiculoDao.recuperarVehiculo("3777CFD");
         System.out.println(v3.getMatricula());
-        System.out.println(v3.getTipovehiculo());
+        System.out.println(v3.getTipoVehiculo());
         System.out.println(v3.isElectrico());
         System.out.println(v1.getUsuario().getDNI());
         */

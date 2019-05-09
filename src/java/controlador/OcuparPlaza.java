@@ -58,12 +58,12 @@ public class OcuparPlaza extends HttpServlet {
                     Plaza p = gestionPlazas.recuperarPlaza(numeroPlaza);
                     Vehiculo v = gestionVehiculos.recuperarVehiculo(matricula);
                     
-                    if(p.getTipoVehiculo().equals(v.getTipovehiculo()) && p.isElectrico() == false){
+                    if(p.getTipoVehiculo().equals(v.getTipoVehiculo()) && p.isElectrico() == false){
                         
                         gestionPlazas.ocuparPlaza(numeroPlaza, v);
 
                         response.sendRedirect("Plazas");
-                    }else if(p.getTipoVehiculo().equals("coche") && v.getTipovehiculo().equals("coche") && p.isElectrico() == v.isElectrico()){
+                    }else if(p.getTipoVehiculo().equals("coche") && v.getTipoVehiculo().equals("coche") && p.isElectrico() == v.isElectrico()){
                     
                         gestionPlazas.ocuparPlaza(numeroPlaza, v);
 

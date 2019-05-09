@@ -36,7 +36,7 @@ public class VehiculoDao {
             PreparedStatement sentencia = 
             con.prepareStatement("INSERT INTO vehiculos VALUES(?, ?, ?, ?)");
             sentencia.setString(1,vehiculo.getMatricula());
-            sentencia.setString(2,vehiculo.getTipovehiculo());
+            sentencia.setString(2,vehiculo.getTipoVehiculo());
             sentencia.setBoolean(3,vehiculo.isElectrico());
             sentencia.setString(4,vehiculo.getUsuario().getDNI());
             sentencia.executeUpdate();
@@ -66,14 +66,14 @@ public class VehiculoDao {
     public ArrayList<Vehiculo> recuperarVehiculosDeUsuario(Usuario user){
         try {
             Statement sentencia= con.createStatement();
-            ResultSet tablaVehiculos =sentencia.executeQuery("SELECT * FROM vehiculos WHERE dniUsuario=\""+
-                                                                                        user.getDNI()+"\"");
+            ResultSet tablaVehiculos =sentencia.executeQuery("SELECT * FROM vehiculos LEFT JOIN plazas on dniUsuario='"+user.getDNI()+"' and matricula=matriculaVehiculo;");
             ArrayList<Vehiculo> vehiculos= new ArrayList<Vehiculo>();
             while(tablaVehiculos.next()){
                     String tipovehiculo = tablaVehiculos.getString("tipovehiculo");
                     boolean electrico = tablaVehiculos.getBoolean("electrico");
                     String matricula= tablaVehiculos.getString("matricula");
                     Vehiculo v = new Vehiculo(tipovehiculo,electrico,matricula);
+                    v.setPlazaOcupada(tablaVehiculos.getInt("numero"));
                     vehiculos.add(v);
             }
             return vehiculos;
@@ -86,7 +86,7 @@ public class VehiculoDao {
     public boolean modificarVehiculo(Vehiculo v){
         try {
             Statement sentencia= con.createStatement();
-            sentencia.executeUpdate("UPDATE vehiculos SET tipoVehiculo=\""+v.getTipovehiculo()+"\" WHERE matricula=\""+v.getMatricula()+"\"");
+            sentencia.executeUpdate("UPDATE vehiculos SET tipoVehiculo=\""+v.getTipoVehiculo()+"\" WHERE matricula=\""+v.getMatricula()+"\"");
             sentencia.close();	
         } catch (SQLException e) {
             e.printStackTrace();

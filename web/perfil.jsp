@@ -9,23 +9,20 @@
     <%@include file="header.html" %>
 
 <!--CONTENIDO-->
-<div class="col-1 box">
-    <%Usuario usuario=(Usuario)session.getAttribute("usuario");%>
+<div>
     
     <%ArrayList<Vehiculo> vehiculos = (ArrayList)session.getAttribute("vehiculos");%>
-
-    <h1><%=usuario.getNombre()%></h1><br><br>
+    <p><a href="vehiculo_nuevo.jsp">Registrar vehículo nuevo</a></p><br><br>
     <%for (Vehiculo vehiculo : vehiculos){%>
+    <span><img src="images/<%=vehiculo.getTipoVehiculo()+((vehiculo.getPlazaOcupada()>0)?true:false)+vehiculo.isElectrico()%>.png" style="max-height: 100px;"/></span>
     <label for="matricula">Matricula: </label>
     <span id="vehiculo"><%=vehiculo.getMatricula()%></span><br>
-    <label for="tipo">Tipo de vehiculo: </label>
-    <span id="tipo"><%=vehiculo.getTipovehiculo()%></span><br>
-    <% if (vehiculo.isElectrico()) {%>Es eléctrico<%}%><br>
+    <%if(vehiculo.getPlazaOcupada()>0){%>Ocupando plaza numero: <%=vehiculo.getPlazaOcupada()%><br><%}%>
     <a href="EliminarVehiculo?matricula=<%=vehiculo.getMatricula()%>">Eliminar vehiculo</a>
       <hr>
     <%}%>
     
-    <p><a href="vehiculo_nuevo.jsp">Registrar vehículo nuevo</a></p>
+
 </div>
 
     <%@include file="footer.html" %>
