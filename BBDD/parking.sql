@@ -44,8 +44,8 @@ CREATE TABLE `plazas` (
   PRIMARY KEY (`numero`),
   KEY `FK_plazas_tipovehiculo_idx` (`tipoVehiculo`),
   KEY `FK_plazas_matricula_idx` (`matriculaVehiculo`),
-  CONSTRAINT `FK_plazas_matricula` FOREIGN KEY (`matriculaVehiculo`) REFERENCES `vehiculos` (`matricula`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK_plazas_tipoVehiculo` FOREIGN KEY (`tipoVehiculo`) REFERENCES `tipovehiculo` (`nombre`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  CONSTRAINT `FK_plazas_matricula` FOREIGN KEY (`matriculaVehiculo`) REFERENCES `vehiculos` (`matricula`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `FK_plazas_tipoVehiculo` FOREIGN KEY (`tipoVehiculo`) REFERENCES `tipovehiculo` (`nombre`) ON DELETE NO ACTION ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO plazas VALUES (1, 0, 'coche', null, 0);
