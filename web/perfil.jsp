@@ -21,7 +21,7 @@
     <label for="tipo">Tipo de vehiculo: </label>
     <span id="tipo"><%=vehiculo.getTipovehiculo()%></span><br>
     <% if (vehiculo.isElectrico()) {%>Es eléctrico<%}%><br>
-    <a href="EliminarVehiculo?vehiculo=<%=vehiculo.getMatricula()%>">Eliminar vehiculo</a>
+    <a href="EliminarVehiculo?matricula=<%=vehiculo.getMatricula()%>">Eliminar vehiculo</a>
       <hr>
     <%}%>
     
