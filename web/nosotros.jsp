@@ -8,7 +8,7 @@
 <%@include file="header.html" %>
 
 <!--CONTENIDO-->
-<div class="col-1">   
+<div class="col-1 box">   
     <div class="col-1-3- empleado">
         <img src="images/empleado1.jpg" class="empleado">
         <h1>Alberto González</h1>

@@ -17,7 +17,7 @@
         <%@include file="header.html"%>
 	
 	
-<div class="col-1">
+<div class="col-1 box">
     <!--<div class="wrapper">-->
     
         <%

@@ -5,7 +5,7 @@
     <body>
         <%@include file="header.html" %>
         
-        <center class="paginacontacto">
+        <center class="paginacontacto box">
             <form action="respuesta.jsp" method="post" name="formulario">
                 <input type="hidden" name="contacto" value="Formulario de Contacto"><!-- Campo oculto para enviar datos al php -->    
                 <fieldset>

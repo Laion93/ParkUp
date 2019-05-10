@@ -12,7 +12,7 @@
 <body class="paginarespuesta">
 <%@include file="header.html" %>
 <!--CONTENIDO-->
-<div id="mensaje">
+<div id="mensaje" class="box">
     <h1>¡Gracias por contactar con nosotros!</h1>
     <br>
     <h2>Nos pondremos en contacto contigo lo más brevemente posible</h2>

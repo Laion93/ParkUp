@@ -13,7 +13,7 @@
 <%@include file="header.html" %>
 
 <!--CONTENIDO-->
-<center>
+<center class="box">
 
 </br></br><h6><b>¿Cómo funciona ParkUp?</b></h6>
 

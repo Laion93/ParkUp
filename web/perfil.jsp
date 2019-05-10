@@ -9,7 +9,7 @@
     <%@include file="header.html" %>
 
 <!--CONTENIDO-->
-<div>
+<div  class="box">
     
     <%ArrayList<Vehiculo> vehiculos = (ArrayList)session.getAttribute("vehiculos");%>
     <p><a href="vehiculo_nuevo.jsp">Registrar vehículo nuevo</a></p><br><br>
