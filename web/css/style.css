@@ -37,7 +37,7 @@ header li{
     margin-left: 50%;
 }
 .mobile-nav li{
-    margin: 20px 0px 40px 20px;
+    margin: 20px 0px 10px 20px;
     cursor: pointer;
 }
 .mobile-nav i{
@@ -82,15 +82,20 @@ nav img{
     z-index: 999;
     float: right;
 }
+.visible{
+    margin-top: 6em;
+    margin-left: 50%;
+}
 #fondomenu{
     background-color:  #090E3C;
     color: white;
-    margin-left: 100%;
+    padding-top: 0.75em;
 }
 .desplegable-desktop li{
     padding-left: 1em;
     margin: 20px 20px 0px 20px;
     cursor: pointer;
+    padding-bottom: 1.5em;
 }
 .promociones, .informacion, .contacto{
     background-color:  #3E447A;
