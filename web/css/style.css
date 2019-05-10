@@ -48,7 +48,7 @@ header li{
 .desplegable{
     position: absolute;
     z-index: 999;
-    background-color: yellow;
+    background-color: transparent;
 }
 /*MENU DESKTOP*/
 nav{
@@ -85,6 +85,7 @@ nav img{
 #fondomenu{
     background-color:  #090E3C;
     color: white;
+    margin-left: 100%;
 }
 .desplegable-desktop li{
     padding-left: 1em;

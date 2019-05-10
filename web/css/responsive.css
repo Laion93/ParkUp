@@ -22,6 +22,11 @@
     .box h1{
         font-size: 15px;
     }
+    #fondomenu{
+        background-color:  #090E3C;
+        color: white;
+        margin-left: 0px;
+    }
     .empleado p{
         font-size: 15px;
     }
