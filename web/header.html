@@ -1,22 +1,25 @@
 <!--MOBILE-->
+
 <header class="col-1 mobile">
         <div class="col-1-3 mobile-user"><i class="fas fa-user fa-2x"></i></div>
         <a href="Plazas"><div class="col-1-3"><img src="img/logo-provisional.png"></div></a>
         <div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
 </header>
-<div class="col-1 desplegable mobile-nav">
+
+<div class="col-1-2 desplegable mobile-nav">
         <!--<div class="col-1-2">&nbsp;</div>-->
-        <div class="col-1-2"  id="fondomenu">
+        <div class="col-1"  id="fondomenu">
             <ul>
                 <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
                 <!--<a href="login.jsp"></a>-->
-                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre(): " Iniciar sesi&oacute;n ")%></li>
+                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre(): " Usuario no registrado ")%></li>
                 <li><a href="Perfil">Mi cuenta</a></li>
                 <li><a href="nosotros.jsp">Nosotros</a></li>
                 <br>
             </ul>
         </div>
 </div>
+
 
 <!--DESKTOP-->
 <header>
@@ -34,12 +37,12 @@
             <ul>
                 <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
                 <%@page import="beans.Usuario"%>
-                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():" ")%></li>
+                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():" Usuario no registrado ")%></li>
                 <li><a href="Perfil">Mi cuenta</a></li>
                 <li><a href="nosotros.jsp">Nosotros</a></li>
 
             </ul>
-            </div>
+         </div>
         </div>
     </div>
 </header>
