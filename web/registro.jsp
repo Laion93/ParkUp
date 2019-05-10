@@ -19,7 +19,7 @@ a la página especificada en el atributo "page" de jsp:forward-->
 
 <%@include file="head.html" %>
 <body>
-<%@include file="header.html" %>
+<%@include file="header-login.html" %>
 
 <!--CONTENIDO-->
 <div class="col-1 box">
