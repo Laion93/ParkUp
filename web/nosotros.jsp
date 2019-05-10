@@ -9,6 +9,15 @@
 
 <!--CONTENIDO-->
 <div class="col-1 box">   
+    
+    <div class="col-1">
+        <br>
+        <span>Nuestro equipo</span>
+        <br><br>
+        <hr>
+        <br>
+    </div>
+    
     <div class="col-1-3- empleado">
         <img src="images/empleado1.jpg" class="empleado">
         <h1>Alberto González</h1>
