@@ -48,9 +48,27 @@
 
         /**********************************/
         /*Menu desktop*/
-        $(".desplegable-desktop").hide();
+        /*$(".desplegable-desktop").hide();
         $(".mobile-desktop").click(function(){
             $(".desplegable-desktop").toggle();
-         })
+         })*/
+         
+         function funciondesktop(y) {
+            var mimenu = $(".desplegable-desktop");
+            if (y.matches) {
+                mimenu.hide();
+                $(".mobile-desktop").click(function(){
+                    mimenu.toggle();
+                 });
+                $(".box").click(function(){
+                    mimenu.hide();
+                });
+            } else {
+                mimenu.hide();
+            }
+        }
+        var y = window.matchMedia("(max-width: 2000px)");
+        funciondesktop(y);
+        y.addListener(funciondesktop);
         
     });
