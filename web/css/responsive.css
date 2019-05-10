@@ -22,6 +22,9 @@
     .box h1{
         font-size: 15px;
     }
+    .empleado p{
+        font-size: 15px;
+    }
     .empleado img{
         margin: 0 auto;
         border-radius: 500px;
@@ -33,6 +36,7 @@
     }
     .empleado{
         width: 100%;
+        padding: 0px 2em;
     }
     .footer-left{
         padding-right: 10%;
