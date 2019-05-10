@@ -45,7 +45,7 @@
             Su función es que las cuentas cuadren y se pueda 
             expandir nuestro proyecto.</p>
     </div>
-</div>
+
 
 <div class="col-1">   
     <div class="col-1-3- empleado">
@@ -76,6 +76,7 @@
             expandir nuestro proyecto</p>
     </div>
 </div>
+    </div>
 <%@include file="footer.html" %>
 </body>
 

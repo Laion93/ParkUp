@@ -9,7 +9,8 @@
         <div class="col-1-2"  id="fondomenu">
             <ul>
                 <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
-                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():"Usuario Anonimo")%></li>
+                <!--<a href="login.jsp"></a>-->
+                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre(): " Iniciar sesi&oacute;n ")%></li>
                 <li><a href="Perfil">Mi cuenta</a></li>
                 <li><a href="nosotros.jsp">Nosotros</a></li>
                 <br>
@@ -27,17 +28,17 @@
                 <div class="col-1-5"><i class="fas fa-user fa-1x mobile-desktop"></i></div>
         </nav>	
 <div class="col-1">
-    <div class="col-1 desplegable-desktop visible">
-        <div class="col-1-2">&nbsp;</div>
-            <div class="col-1-2"  id="fondomenu">
-                <ul>
-                    <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
-                    <%@page import="beans.Usuario"%>
-                    <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():"Usuario Anonimo")%></li>
-                    <li><a href="Perfil">Mi cuenta</a></li>
-                    <li><a href="nosotros.jsp">Nosotros</a></li>
-                    <br>
-                </ul>
+    <div class="col-1-2 desplegable-desktop visible">
+        <!--<div class="col-1-2">&nbsp;</div>-->
+        <div class="col-1"  id="fondomenu">
+            <ul>
+                <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
+                <%@page import="beans.Usuario"%>
+                <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():" ")%></li>
+                <li><a href="Perfil">Mi cuenta</a></li>
+                <li><a href="nosotros.jsp">Nosotros</a></li>
+
+            </ul>
             </div>
         </div>
     </div>
