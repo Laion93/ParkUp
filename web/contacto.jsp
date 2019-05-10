@@ -11,19 +11,14 @@
                 <fieldset>
                     <ol>
                         <li>
-                            <label>Nombre</label>
-                            <br>
-                            <input type="text" name="nombre" required>
+                            <input type="text" name="nombre" placeholder="Nombre" required>
                         </li>
                         <li>
-                            <label>E-mail</label>
                             <br>
-                            <input type="email" name="email" required>
+                            <input type="email" name="email" placeholder="E-mail" required>
                         </li>
                         <li>
-                            <label>Mensaje</label>
-                            <br>
-                            <textarea name="mensaje" rows="10" cols="40"></textarea>
+                            <textarea name="mensaje" placeholder=" Mensaje" rows="10" cols="40"></textarea>
                         </li>
                         <li>
                         <input class="boton" type="submit" name="submit" value="Enviar"></li>
