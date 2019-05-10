@@ -31,6 +31,7 @@ input{
     background-color: #090E3C;
     color: white;
     margin-top: 4em;
+    margin-left: 50%;
 }
 .mobile-nav li{
     margin: 20px 0px 40px 20px;
@@ -158,6 +159,14 @@ form input[type="submit"]{
     color: #090E3C;
 }
 /*PAGINA-NOSOTROS*/
+.paginanosotros div span{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.paginanosotros hr{
+    width: 40%;
+}
 .paginanosotros h1{
     text-align: center;
     font-size: 20px;
@@ -209,6 +218,9 @@ form input[type="submit"]{
  /*PAGINA-INFORMACION*/
  .paginainformacion btn-group{
      margin-bottom: 1.5em;
+ }
+ .paginainformacion img{
+     margin: 0 auto;
  }
  
 /*FOOTER*/
