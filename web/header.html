@@ -12,6 +12,7 @@
             <ul>
                 <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
                 <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre(): " Usuario no registrado ")%></li>
+                <li><a href="vehiculo_nuevo.jsp">Registrar veh&iacute;culo</a></li>
                 <li><a href="Perfil">Mi cuenta</a></li>
                 <li><a href="nosotros.jsp">Nosotros</a></li>
                 <br>
@@ -38,6 +39,7 @@
                 <!--Verifica que exista usuario logueado, imprime su atributo "Nombre" si verdadero, o "Usuario anonimo si falso.-->
                 <%@page import="beans.Usuario"%>
                 <li><%=(session.getAttribute("usuario")!=null ? ((Usuario)session.getAttribute("usuario")).getNombre():" Usuario no registrado ")%></li>
+                <li><a href="vehiculo_nuevo.jsp">Registrar veh&iacute;culo</a></li>
                 <li><a href="Perfil">Mi cuenta</a></li>
                 <li><a href="nosotros.jsp">Nosotros</a></li>
 
