@@ -43,7 +43,7 @@ public class Registrar extends HttpServlet {
         user.setTelefono(telefono);
 
         if(gestion.registrarUsuario(user)){
-            response.sendRedirect("login.html");
+            response.sendRedirect("Login");
         }else{
             response.sendRedirect("registro.jsp?error=noregistrado");
         }
