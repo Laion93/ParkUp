@@ -66,7 +66,7 @@ public class VehiculoDao {
     public ArrayList<Vehiculo> recuperarVehiculosDeUsuario(Usuario user){
         try {
             Statement sentencia= con.createStatement();
-            ResultSet tablaVehiculos =sentencia.executeQuery("SELECT * FROM vehiculos LEFT JOIN plazas on dniUsuario='"+user.getDNI()+"' and matricula=matriculaVehiculo;");
+            ResultSet tablaVehiculos =sentencia.executeQuery("SELECT * FROM (vehiculos LEFT JOIN plazas on matricula=matriculaVehiculo) where dniUsuario='"+user.getDNI()+"';");
             ArrayList<Vehiculo> vehiculos= new ArrayList<Vehiculo>();
             while(tablaVehiculos.next()){
                     String tipovehiculo = tablaVehiculos.getString("tipovehiculo");
