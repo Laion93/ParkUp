@@ -232,6 +232,42 @@ form input[type="submit"]{
      margin: 0 auto;
  }
  
+ /*PAGINA-USUARIOS*/
+ .paginausuarios h1{
+     font-size: 20px;
+     text-align: center;
+     font-weight: 700;
+     padding-top: 1em!important;
+ }
+ .paginausuarios hr{
+     border: #090E3C solid 2px;
+     width: 70%;
+     border-radius: 5px;
+     margin: 2em;
+     background-color: #090E3C;
+ }
+ .paginausuarios table{
+     border: solid #090E3C 2px;
+     margin: 1em;
+ }
+  .paginausuarios tr{
+     border: solid #090E3C 1px;
+ }
+  .paginausuarios td{
+     padding: 10px;
+     width: 200px;
+ }
+ .paginausuarios .td{
+     border: solid #090E3C 1px;
+     background-color: lightblue;
+ }
+ .paginausuarios a{
+     padding: 0.75em;
+     background-color: lightgray;
+     border: #090E3C solid 2px;
+     border-radius: 50px;
+ }
+ 
 /*FOOTER*/
 .footer{
     background-color: #090E3C;
