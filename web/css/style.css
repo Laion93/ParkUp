@@ -105,7 +105,7 @@ nav img{
 /*CONTENIDO*/
 .box{
     text-align: center;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 .box h1{
     font-size: 20px;
@@ -167,6 +167,19 @@ form input[type="submit"]{
     text-decoration: none;
     color: #090E3C;
 }
+.paginaperfil hr{
+     border: #090E3C solid 2px;
+     width: 70%;
+     border-radius: 5px;
+     background-color: #090E3C;
+     margin: 1em auto;
+}
+.paginaperfil a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #090E3C;
+}
+
 /*PAGINA-NOSOTROS*/
 .paginanosotros div span{
     font-size: 30px;
@@ -267,7 +280,6 @@ form input[type="submit"]{
      border: #090E3C solid 2px;
      border-radius: 50px;
  }
- 
 /*FOOTER*/
 .footer{
     background-color: #090E3C;
