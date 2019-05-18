@@ -26,6 +26,7 @@ import negocio.GestionVehiculos;
 @WebServlet(name = "RecuperarUsuariosAdmin", urlPatterns = {"/RecuperarUsuariosAdmin"})
 public class RecuperarUsuariosAdmin extends HttpServlet {
 
+    private static final long serialVersionUID = 1L;
     GestionUsuarios gestionUsuarios;
     GestionVehiculos gestionVehiculos;
  
