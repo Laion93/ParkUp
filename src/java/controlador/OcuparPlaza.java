@@ -26,7 +26,8 @@ import negocio.GestionVehiculos;
  */
 @WebServlet(name = "OcuparPlaza", urlPatterns = {"/OcuparPlaza"})
 public class OcuparPlaza extends HttpServlet {
-
+   
+    private static final long serialVersionUID = 1L;
     GestionPlazas gestionPlazas;
     GestionUsuarios gestionUsuarios;
     GestionVehiculos gestionVehiculos;
