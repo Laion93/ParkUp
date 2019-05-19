@@ -163,6 +163,7 @@ form input[type="submit"]{
     margin-bottom: 18em;
 }
 .errorLogin{
+    
     border:solid 1px #D8000C;
     background-color:#FFBABA;
     background-image: url('../images/error.png');
@@ -173,17 +174,7 @@ form input[type="submit"]{
     text-align:center; 
     width: 35%;
 }
-.errorPlaza{
-    border:solid 1px #D8000C;
-    background-color:#FFBABA;
-    background-image: url('../images/error.png');
-    background-size: 6% 100%;
-    background-repeat: no-repeat;
-    color:#D8000C;
-    padding:4px;
-    text-align:center; 
-    width: 50%;
-}
+
 /*PAGINA-MAPA*/
 .paginamapa {
     padding-bottom: 0px!important;
@@ -203,6 +194,37 @@ form input[type="submit"]{
     color: #090E3C;
     text-decoration: none;
 }
+.paginaperfil hr{
+     border: #090E3C solid 2px;
+     width: 70%;
+     border-radius: 5px;
+     margin: 2em;
+     background-color: #090E3C;
+ }
+ .paginaperfil table{
+     border: solid #090E3C 2px;
+     margin: 2em auto;
+ }
+  .paginaperfil tr{
+     border: solid #090E3C 1px;
+ }
+  .paginaperfil td{
+     padding: 10px;
+     width: 200px;
+ }
+ .paginaperfil .td{
+     border: solid #090E3C 1px;
+     background-color: lightblue;
+ }
+ .paginaperfil a{
+     padding: 0.75em;
+     background-color: lightgray;
+     border: #090E3C solid 2px;
+     border-radius: 50px;
+ }
+ .paginaperfil .botonperfil{
+     margin: 2.5em;
+ }
 .newv{
     border: solid #090E3C 2px;
     background-color: lightgray;
@@ -211,7 +233,7 @@ form input[type="submit"]{
     
 }
 #newvehiculo{
-   padding-top: 10em; 
+   padding-top: 5em; 
 }
 
 /*PAGINA-NOSOTROS*/
