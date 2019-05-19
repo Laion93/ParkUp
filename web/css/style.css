@@ -263,6 +263,24 @@ form input[type="submit"]{
  .paginainformacion img{
      margin: 0 auto;
  }
+ .paginainformacion p a{
+     color: #090E3C;
+ }
+  .paginainformacion p a:hover{
+     color: lightblue;
+ }
+ .paginainformacion h1{
+     padding-top: 4em;
+     font-size: 30px;
+     text-align: center;
+     font-weight: 700;
+ }
+  .paginainformacion h3{
+     font-size: 20px;
+     text-align: center;
+     font-weight: 700;
+     margin-top: 1em;
+ }
  
  /*PAGINA-USUARIOS*/
  .paginausuarios h1{
