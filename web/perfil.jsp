@@ -40,7 +40,7 @@
 
             <%String mensaje = request.getParameter("mensaje");%>
             <%if(mensaje != null){%>
-                <div id="newvehiculo">
+                <div>
                     <h1>De momento no tiene vehiculos registrados, si lo desea puede registrar uno ahora:</h1><br><br>
                     <p><a href="vehiculo_nuevo.jsp" class="newv">Registrar vehículo nuevo</a></p><br>
                 </div>
@@ -63,7 +63,13 @@
                 <%}%>
             <%}%>
 </div>
+<%
+if((ArrayList)session.getAttribute("vehiculos")!=null){%>
     <%@include file="footer.html" %>
+<%}else{%>
+    <%@include file="footerbottom.html" %>
+<%}%>
+    
 </body>
 
 </html>
