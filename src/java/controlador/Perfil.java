@@ -25,6 +25,8 @@ import negocio.GestionVehiculos;
 @WebServlet(name = "Perfil", urlPatterns = {"/Perfil"})
 public class Perfil extends HttpServlet {
 
+    private static final long serialVersionUID = 1L;
+	
     GestionVehiculos gestionVehiculo;
  
     public Perfil() {
