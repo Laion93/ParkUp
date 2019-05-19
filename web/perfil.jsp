@@ -10,9 +10,34 @@
 
 <!--CONTENIDO-->
 <div  class="box paginaperfil">
+    <div  id="newvehiculo">
+        <h1><b>Datos de <%=((Usuario)session.getAttribute("usuario")).getNombre()%></b></h1>
+            <table>
+                <tr>
+                    <td class="td"><p>DNI </p></td>
+                    <td><%=((Usuario)session.getAttribute("usuario")).getDNI()%></td>
+                <tr>
+                <tr>
+                    <td class="td">Nombre </td>
+                    <td><%=((Usuario)session.getAttribute("usuario")).getNombre()%></td>
+                </tr>
+                <tr>
+                    <td class="td">Apellidos </td>
+                    <td><%=((Usuario)session.getAttribute("usuario")).getApellido()%></td>
+                </tr>
+                <tr>
+                    <td class="td">Telefono </td>
+                    <td><%=((Usuario)session.getAttribute("usuario")).getTelefono()%></td>
+                </tr>
+                <tr>
+                    <td class="td">Email </td>
+                    <td><%=((Usuario)session.getAttribute("usuario")).getEmail()%></td>
+                </tr>
+             </table>
+    </div>
     
     <%ArrayList<Vehiculo> vehiculos = (ArrayList)session.getAttribute("vehiculos");%>
-    <div id="newvehiculo">
+    <div>
         <p><a href="vehiculo_nuevo.jsp" class="newv">Registrar vehículo nuevo</a></p><br>
     </div>
     <br>
@@ -22,10 +47,14 @@
         <span id="vehiculo"><%=vehiculo.getMatricula()%></span><br>
         <%if(vehiculo.getNombrePlaza()!= null){%>
             Ocupando plaza: <%=vehiculo.getNombrePlaza()%><br>
-            <%session.setAttribute("Vehiculo", vehiculo);%>	
-            <a href="LiberarPlaza?nombrePlaza=<%=vehiculo.getNombrePlaza()%>">Liberar Plaza</a><br>
+            <%session.setAttribute("Vehiculo", vehiculo);%>
+            <div class="botonperfil">
+                <a href="LiberarPlaza?nombrePlaza=<%=vehiculo.getNombrePlaza()%>">Liberar Plaza</a><br>
+            </div>
         <%}%>
-        <a href="EliminarVehiculo?matricula=<%=vehiculo.getMatricula()%>&&nombrePlaza=<%=vehiculo.getNombrePlaza()%>">Eliminar vehiculo</a>
+            <div>
+                <a href="EliminarVehiculo?matricula=<%=vehiculo.getMatricula()%>&&nombrePlaza=<%=vehiculo.getNombrePlaza()%>">Eliminar vehiculo</a>
+            </div>
         <hr>
     <%}%>
     
