@@ -28,7 +28,7 @@
     ¿No tiene usuario? <a href="registro.jsp">Regístrese aquí</a>
 </div>
 
-<%@include file="footer.html" %>
+        <%@include file="footerbottom.html" %>
 </body>
 
 </html>
