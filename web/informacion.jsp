@@ -44,11 +44,11 @@
 </p>
 </p> <br>
 
-<h3><b>Eliminar vehículo</b></h3>
+<h3><b>Eliminar vehículo o liberar plaza</b></h3>
 <br>
 <img class="img-responsive" width="260px" src="images/comofunciona-justificante-blue.png" alt="Presenta el justificante"/></p>
 <p>
-    En "<a href="perfil.jsp">Mi cuenta</a>" puedes ver los vehículos que ahora mismo tienes con plaza reservada y puedes eliminarlos en cualquier momento.
+    En "<a href="perfil.jsp">Mi cuenta</a>" puedes ver los vehículos que ahora mismo tienes con plaza reservada y puedes eliminarlos o liberar la plaza que ocupan en cualquier momento.
 </p>
 
 </div>
