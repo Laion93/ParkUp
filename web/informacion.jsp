@@ -39,7 +39,7 @@
 <img class="img-responsive" width="260px" src="images/comofunciona-ticket-blue.png" alt="Aparca "/></p>
 <p>En el mapa del parking, elige la plaza que deseas reservar y selecciona la matrícula del vehículo que quieres utilizar para esa plaza.<br>
     Lo puedes hacer en la ventana a la que te redirigimos cuando seleccionas la plaza.<br>
-    Recuerda que la plaza seleccioanda solo podrá ser ocupada por vehículos del mismo tipo.<br>
+    Recuerda que la plaza seleccionada solo podrá ser ocupada por vehículos del mismo tipo.<br>
     Los coches electricos puedes aparcarse en plaza de coche convencional pero no al revés.
 </p>
 </p> <br>
