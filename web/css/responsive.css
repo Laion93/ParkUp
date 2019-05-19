@@ -47,6 +47,9 @@
         padding-top: 5em;
         font-size: 20px;
     }
+    .paginainformacion p{
+        margin: 0em 2em 0em 2em;
+    }
     .paginaperfil a {
         font-size: 10px;
         font-weight: 600;

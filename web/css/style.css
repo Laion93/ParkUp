@@ -263,6 +263,7 @@ form input[type="submit"]{
  .paginainformacion img{
      margin: 0 auto;
  }
+ 
  .paginainformacion p a{
      color: #090E3C;
  }
@@ -334,6 +335,7 @@ form input[type="submit"]{
     bottom: 0;
     padding: 2em;
     font-size: 12px;
+    width: 100%;
 }
 .footer-left{
     text-align: right;
