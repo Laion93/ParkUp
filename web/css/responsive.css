@@ -17,7 +17,7 @@
         font-size: 90%;
     }
     .box{
-        font-size: 50%;
+        font-size: 60%;
     }
     .box h1{
         font-size: 15px;
@@ -42,6 +42,19 @@
     .empleado{
         width: 100%;
         padding: 0px 2em;
+    }
+    .paginainformacion h1{
+        padding-top: 5em;
+        font-size: 20px;
+    }
+    .paginaperfil a {
+        font-size: 10px;
+        font-weight: 600;
+        color: #090E3C;
+        text-decoration: none;
+    }
+    .paginaperfil #newvehiculo{
+        padding-top: 11em;
     }
     .footer-left{
         padding-right: 10%;
