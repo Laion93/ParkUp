@@ -3,7 +3,7 @@
 
 <header class="col-1 mobile">
     <div class="col-1-3 mobile-user"><a href="informacion.jsp"><i class="fas fa-question fa-2x"></i></a></div>
-        <a href="Plazas"><div class="col-1-3"><img src="images/logo-provisional.png"></div></a>
+        <div class="col-1-3"><a href="login.jsp"><img src="images/logo-provisional.png"></div></a>
         <div class="col-1-3 mobile-menu" id="desplegable"><i class="fas fa-bars fa-2x"></i></div>
 </header>
 
@@ -30,7 +30,7 @@
 <!--DESKTOP-->
 <header>
         <nav class="col-1 desktop">
-            <div class="col-1-4 logo"><a href="Plazas"><img src="images/logo-provisional.png"></a></div>
+            <div class="col-1-4 logo"><a href="login.jsp"><img src="images/logo-provisional.png"></a></div>
                 <div class="col-1-4 menu"><a href="informacion.jsp">Informaci&oacuten</a></div>
                 <div class="col-1-4 menu"><a href="nosotros.jsp">Nosotros</a></div>
                 <div class="col-1-4 menu"><a href="contacto.jsp">Contacto</a></div>
