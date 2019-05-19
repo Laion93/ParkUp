@@ -232,8 +232,11 @@ form input[type="submit"]{
     border-radius: 35px;
     
 }
-#newvehiculo{
+#titleperfil{
    padding-top: 5em; 
+}
+#vehiculoperfil{
+    margin-bottom: 2em;
 }
 
 /*PAGINA-NOSOTROS*/
