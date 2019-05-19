@@ -19,34 +19,40 @@
 <!--CONTENIDO-->
 <center class="box">
 
-</br></br><h6><b>¿Cómo funciona ParkUp?</b></h6>
+<h1><b>¿Cómo funciona ParkUp?</b></h1>
+<br>
 
 <div class="row">
 
-<h3><b>Reserva tu plaza</b></h3>
+<h3><b>Registra un vehículo</b></h3>
+<br>
 <div class="row margin-top-2-3">
 
-         <p>   <img class="img-responsive" width="260px" src="images/comofunciona-reserva-blue.png" alt="Reserva tu plaza"/></p>
-<p>Haz tu reserva de una plaza de parking a través ParkUp,seleccionando una fecha de entrada de na fecha de salida.</p>
+    <img class="img-responsive" width="260px" src="images/comofunciona-reserva-blue.png" alt="Reserva tu plaza"/>
+    <p><a href="registro.jsp">Registrate</a> y si ya estás registrado <a href="login.jsp">inicia sesión.</a> <br>
+        Registra todos los vehículo que quieras desde la pestaña "<a href="vehiculo_nuevo.jsp">Registrar vehiculo</a>" del menú.
+    </p>
 <br>
-<h3><b>Aparca tu coche</b></h3>
 
-            <img class="img-responsive" width="260px" src="images/comofunciona-ticket-blue.png" alt="Aparca "/></p>
-<p>Cuando llegue el día de tu reserva, dirígete al parking y coge el ticket a la entrada.</p>
+<h3><b>Reserva tu plaza</b></h3>
+<br>
+<img class="img-responsive" width="260px" src="images/comofunciona-ticket-blue.png" alt="Aparca "/></p>
+<p>En el mapa del parking, elige la plaza que deseas reservar y selecciona la matrícula del vehículo que quieres utilizar para esa plaza.<br>
+    Lo puedes hacer en la ventana a la que te redirigimos cuando seleccionas la plaza.<br>
+    Recuerda que la plaza seleccioanda solo podrá ser ocupada por vehículos del mismo tipo.<br>
+    Los coches electricos puedes aparcarse en plaza de coche convencional pero no al revés.
+</p>
 </p> <br>
 
-<h3><b>Presenta el justificante</b></h3>
-
+<h3><b>Eliminar vehículo</b></h3>
+<br>
 <img class="img-responsive" width="260px" src="images/comofunciona-justificante-blue.png" alt="Presenta el justificante"/></p>
-<p>Después de aparcar, presenta el justificante de reserva en la cabina de control.</p>
-</div>
- 
+<p>
+    En "<a href="perfil.jsp">Mi cuenta</a>" puedes ver los vehículos que ahora mismo tienes con plaza reservada y puedes eliminarlos en cualquier momento.
+</p>
 
-<div class="row">
-<div class="btn-group">
-                <a class="btn-inverse-line" target="_blank"  href="informacion.html">¿Cómo hago una reserva?</a><a class="btn-inverse" ><a href="login.html">Reservar</a>
-            </div>
 </div>
+
 </div>
 </center>
 <%@include file="footer.html" %>
