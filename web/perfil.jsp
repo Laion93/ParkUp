@@ -9,12 +9,15 @@
     <%@include file="header.jsp" %>
 
 <!--CONTENIDO-->
-<div  class="box">
+<div  class="box paginaperfil">
     
     <%ArrayList<Vehiculo> vehiculos = (ArrayList)session.getAttribute("vehiculos");%>
-    <p><a href="vehiculo_nuevo.jsp">Registrar vehículo nuevo</a></p><br><br>
+    <div id="newvehiculo">
+        <p><a href="vehiculo_nuevo.jsp" class="newv">Registrar vehículo nuevo</a></p><br>
+    </div>
+    <br>
     <%for (Vehiculo vehiculo : vehiculos){%>
-        <span><img src="images/<%=vehiculo.getTipoVehiculo()+((vehiculo.getNombrePlaza()!=null)?true:false)+vehiculo.isElectrico()%>.png" style="max-height: 100px;"/></span>
+    <span><img src="images/<%=vehiculo.getTipoVehiculo()+((vehiculo.getNombrePlaza()!=null)?true:false)+vehiculo.isElectrico()%>.png" style="max-height: 100px;"/></span><br><br>
         <label for="matricula">Matricula: </label>
         <span id="vehiculo"><%=vehiculo.getMatricula()%></span><br>
         <%if(vehiculo.getNombrePlaza()!= null){%>
