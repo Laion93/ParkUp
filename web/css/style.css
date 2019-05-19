@@ -210,15 +210,12 @@ form input[type="submit"]{
     border-radius: 35px;
     
 }
-#newvehiculo{
-   padding-top: 10em; 
-}
 
  .paginaperfil h1{
      font-size: 20px;
      text-align: center;
      font-weight: 700;
-     padding-top: 1em!important;
+     padding-top: 7em!important;
  }
  .paginaperfil hr{
      border: #090E3C solid 2px;
