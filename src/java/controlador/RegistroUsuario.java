@@ -12,6 +12,8 @@ import negocio.GestionUsuarios;
 
 @WebServlet(name = "RegistroUsuario", urlPatterns = {"/RegistroUsuario"})
 public class RegistroUsuario extends HttpServlet {
+    
+    private static final long serialVersionUID = 1L;
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
