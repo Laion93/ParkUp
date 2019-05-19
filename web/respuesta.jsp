@@ -18,6 +18,6 @@
     <h2>Nos pondremos en contacto contigo lo más brevemente posible</h2>
 </div>
 
-<%@include file="footer.html" %>
+<%@include file="footerbottom.html" %>
 </body>
 </html>
