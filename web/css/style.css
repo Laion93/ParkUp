@@ -163,7 +163,6 @@ form input[type="submit"]{
     margin-bottom: 18em;
 }
 .errorLogin{
-    
     border:solid 1px #D8000C;
     background-color:#FFBABA;
     background-image: url('../images/error.png');
@@ -174,7 +173,17 @@ form input[type="submit"]{
     text-align:center; 
     width: 35%;
 }
-
+.errorPlaza{
+    border:solid 1px #D8000C;
+    background-color:#FFBABA;
+    background-image: url('../images/error.png');
+    background-size: 6% 100%;
+    background-repeat: no-repeat;
+    color:#D8000C;
+    padding:4px;
+    text-align:center; 
+    width: 50%;
+}
 /*PAGINA-MAPA*/
 .paginamapa {
     padding-bottom: 0px!important;
