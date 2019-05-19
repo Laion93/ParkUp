@@ -42,7 +42,9 @@ a la página especificada en el atributo "page" de jsp:forward-->
     </form><br><br>
 </div>
 
-<%@include file="footer.html" %>
+<!--En este caso se aplica footerbottom para que quede en una posicion absoluta 
+        y quede abajo ya que el contenido no ocupa el total de alto de la pagina-->
+<%@include file="footerbottom.html" %>
 </body>
 
 </html>
