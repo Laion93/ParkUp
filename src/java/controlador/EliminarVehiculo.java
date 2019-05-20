@@ -57,7 +57,7 @@ public class EliminarVehiculo extends HttpServlet {
                         response.sendRedirect("Perfil");
                     }                  
 		}else{
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("login.jsp?error=nologueado");
 		}
     }
 
