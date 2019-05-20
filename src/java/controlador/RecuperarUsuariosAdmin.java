@@ -67,7 +67,7 @@ public class RecuperarUsuariosAdmin extends HttpServlet {
             response.sendRedirect("usuarios.jsp");
             
         }else{
-            response.sendRedirect("login.jsp");
+            response.sendRedirect("login.jsp?error=nologueado");
 	}
     }
 
