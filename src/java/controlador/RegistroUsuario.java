@@ -25,7 +25,7 @@ public class RegistroUsuario extends HttpServlet {
         if(gestion.registrarUsuario(usuario)){
             response.sendRedirect("login.jsp");
         }else{
-            response.sendRedirect("registro.jsp?error=noregistrado");
+            response.sendRedirect("registro.jsp?error=Error de registro");
         }
     }
 
