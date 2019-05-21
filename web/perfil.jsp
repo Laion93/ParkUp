@@ -32,10 +32,6 @@
                     <td class="td">Teléfono </td>
                     <td><%=u.getTelefono()%></td>
                 </tr>
-                <tr>
-                    <td class="td">Contraseña </td>
-                    <td><%=u.getPass()%></td>
-                </tr>
              </table>
 
             <%String mensaje = request.getParameter("mensaje");%>
