@@ -10,6 +10,10 @@
         <%}%>   
         
         <center class="paginacontacto box">
+            <!--Para que el formulario funcionara tendríamos que poner action="formulario.php" y así acceder a ese documento
+            que se encuentra con los demás archivos .jsp
+            Para que esto funcione necesitamos tener un dominio y un hosting web, por eso hemos creado una pagina: "respuesta.jsp" que simula
+            el envío del formulario-->
             <form action="respuesta.jsp" method="post" name="formulario">
                 <input type="hidden" name="contacto" value="Formulario de Contacto"><!-- Campo oculto para enviar datos al php -->    
                 <fieldset>
